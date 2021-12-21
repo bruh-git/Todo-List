@@ -1,17 +1,17 @@
-var buttonCriarTarefa = document.getElementById('criar-tarefa')
+// var buttonCriarTarefa = document.getElementById('criar-tarefa')
 
 
-buttonCriarTarefa.addEventListener('click', add);
+// buttonCriarTarefa.addEventListener('click', add);
 
-function add(){
-    var li = document.createElement('li');
+// function add(){
+//     var li = document.createElement('li');
     
-    li.innerText = input.value;
+//     li.innerText = input.value;
 
-}
+// }
 
-li.addEventListener('click',grayBackground);
+// li.addEventListener('click',grayBackground);
 
-function grayBackground (){
-    document.querySelectorAll('')
-}
+// function grayBackground (){
+//     document.querySelectorAll('')
+// }
