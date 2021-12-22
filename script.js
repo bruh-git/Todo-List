@@ -1,14 +1,18 @@
-// var buttonCriarTarefa = document.getElementById('criar-tarefa')
+let buttonCriarTarefa = document.getElementById('criar-tarefa');
+let listaOrdenada = document.getElementById("lista-tarefas");
 
+buttonCriarTarefa.addEventListener('click', add);
 
-// buttonCriarTarefa.addEventListener('click', add);
+function add(){
+    let inputTextoTarefa = document.getElementById('texto-tarefa');
+    let li = document.createElement('li');  
+    li.innerText = inputTextoTarefa.value;
+    listaOrdenada.appendChild(li);
+    inputTextoTarefa.value = '';
+}
 
-// function add(){
-//     var li = document.createElement('li');
-    
-//     li.innerText = input.value;
-
-// }
+// li.addEventListener('click', seleciona);
+// li.addEventListener('dbclick', concluida); 
 
 // li.addEventListener('click',grayBackground);
 
